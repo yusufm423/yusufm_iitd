@@ -430,3 +430,15 @@ footer {
 footer p {
   text-align: center;
 }
+
+.article-container {
+  display: flex;
+  flex-direction: column;   /* Stack vertically */
+  gap: 1.5rem;              /* Space between degrees */
+}
+
+.article-container article {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
