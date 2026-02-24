@@ -294,13 +294,13 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 2rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  text-align: center;
+  text-align: left;
 }
 
 .section-container {
@@ -433,12 +433,16 @@ footer p {
 
 .article-container {
   display: flex;
-  flex-direction: column;   /* Stack vertically */
-  gap: 1.5rem;              /* Space between degrees */
+  flex-direction: column;   /* stack vertically */
+  align-items: flex-start;  /* force left alignment */
+  gap: 2rem;
 }
 
 .article-container article {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  width: 100%;
   gap: 1rem;
 }
